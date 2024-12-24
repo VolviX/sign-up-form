@@ -119,6 +119,20 @@ form {
 input {
     padding: 6px;
     width: 250px;
+    border-radius: 16px;
+    border-color: #E5E7EB;
+}
+
+input:invalid {
+    border-color: red;
+}
+  
+input:valid {
+    border-color: green;
+}
+
+input:focus {
+    border-color: blue;
 }
 
 .bot p {
