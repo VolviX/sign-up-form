@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up Form</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> -->
     <link rel="stylesheet" href="./style.css">
     <script src="./script.js" defer></script>
 </head>
@@ -24,10 +24,39 @@
             <p>You know you want to.</p>
         </div>
         <div class="mid">
-            <p>placeholder for form</p>
+            <div class="userForm">
+                <div class="form-container">
+                    <p>Let's do this!</p>
+                    <form action="#" method="GET">
+                    <div class="form-group">
+                        <input type="text" id="first-name" name="first-name" placeholder="First Name">
+                    </div>
+                      
+                    <div class="form-group">
+                        <input type="text" id="last-name" name="last-name" placeholder="Last Name">
+                    </div>
+                      
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email *" required>
+                    </div>
+                      
+                    <div class="form-group">
+                        <input type="tel" id="phone-number" name="phone-number" placeholder="Phone Number">
+                    </div>
+                      
+                    <div class="form-group">
+                        <input type="password" id="password" name="password" placeholder="Password (3-6 char) *" minlength="3" maxlength="6" required>
+                    </div>
+                      
+                    <div class="form-group">
+                        <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password (3-6 char) *" minlength="3" maxlength="6" required>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="bot">
-            <button>Create Account</button>
+            <button type="submit">Create Account</button>
+                    </form>
             <p>Already have an account? <a href="#"><span class="link">Log in</span></a></p>
         </div>
     </div>

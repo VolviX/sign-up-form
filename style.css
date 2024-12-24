@@ -16,6 +16,12 @@ body {
     font-family: Roboto;
 }
 
+p {
+    margin: 0px;
+    /* padding-top: 12px; */
+    padding-bottom: 12px;
+}
+
 a {
     color: white;
 }
@@ -95,4 +101,26 @@ button {
 .link {
     color: var(--button-color);
     font-weight: bold;
+}
+
+form {
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 12px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 6px;
+    width: 250px;
+}
+
+.bot p {
+    padding-top: 12px;
 }
